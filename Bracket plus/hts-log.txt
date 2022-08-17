@@ -1,0 +1,25 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 02 Sep 2021 14:34:33 at http://themepixels.me/demo/bracketplus1.4/app/template +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "fr, en, *" http://themepixels.me/demo/bracketplus1.4/app/template -O1 "C:\Mes Sites Web\Bracket plus" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:36:19	Error: 	"Not Found" (404) at link themepixels.me/bracketplus/img/bracketplus-social.png (from themepixels.me/demo/bracketplus1.4/app/template/)
+14:41:53	Warning: 	file not stored in cache due to bogus state (broken size, expected 526725 got 2489): themepixels.me/demo/bracketplus1.4/app/lib/highlightjs/highlight.pack.min.js
+14:45:20	Warning: 	Retry after error -4 (Incorrect length (257809 Bytes, 444998 expected)) at link themepixels.me/demo/bracketplus1.4/app/img/img46.jpg (from themepixels.me/demo/bracketplus1.4/app/template/card-listing.html)
+14:45:20	Warning: 	Retry after error -4 (Incorrect length (2489 Bytes, 526725 expected)) at link themepixels.me/demo/bracketplus1.4/app/lib/highlightjs/highlight.pack.min.js (from themepixels.me/demo/bracketplus1.4/app/template/accordion.html)
+14:45:20	Warning: 	Retry after error -4 (No data (connection closed)) at link themepixels.me/demo/bracketplus1.4/app/img/img11.jpg (from themepixels.me/demo/bracketplus1.4/app/template/cards.html)
+14:45:25	Error: 	"Not Found" (404) at link themepixels.me/demo/bracketplus1.4/app/lib/flot-spline/js/jquery.flot.spline.js (from themepixels.me/demo/bracketplus1.4/app/template/chart-flot.html)
+14:45:39	Error: 	"Not Found" (404) at link https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw (from themepixels.me/demo/bracketplus1.4/app/template/map-leaflet.html)
+14:45:39	Error: 	"Not Found" (404) at link themepixels.me/demo/bracketplus1.4/app/template/skin-sidebar.html (from themepixels.me/demo/bracketplus1.4/app/template/skin-template.html)
+14:45:39	Error: 	"Not Found" (404) at link themepixels.me/demo/bracketplus1.4/app/app-simple-white/ (from themepixels.me/demo/bracketplus1.4/app/template/skin-template.html)
+14:45:39	Error: 	"Not Found" (404) at link themepixels.me/demo/bracketplus1.4/app/app-oreo/index.html (from themepixels.me/demo/bracketplus1.4/app/template/skin-template.html)
+14:45:39	Error: 	"Not Found" (404) at link themepixels.me/demo/bracketplus1.4/app/app-dark/index.html (from themepixels.me/demo/bracketplus1.4/app/template/skin-template.html)
+14:46:55	Error: 	"Not Found" (404) at link themepixels.me/demo/bracketplus1.4/app/rtl/index.html (from themepixels.me/demo/bracketplus1.4/app/template/layouts.html)
+14:46:55	Error: 	"Not Found" (404) at link themepixels.me/demo/bracketplus1.4/app/rtl/blank.html (from themepixels.me/demo/bracketplus1.4/app/template/layouts.html)
+14:46:55	Error: 	"Not Found" (404) at link themepixels.me/demo/bracketplus1.4/app/rtl/blank-2.html (from themepixels.me/demo/bracketplus1.4/app/template/layouts.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 28 minutes 4 seconds : 292 links scanned, 278 files written (46733767 bytes overall) [43328891 bytes received at 25729 bytes/sec], 4068901 bytes transferred using HTTP compression in 85 files, ratio 13%, 2.2 requests per connection
+(10 errors, 4 warnings, 0 messages)
