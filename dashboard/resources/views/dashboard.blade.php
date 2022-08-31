@@ -57,6 +57,6 @@
           <div id="ch4" class="ht-50 tr-y-1"></div>
         </div>
       </div><!-- col-3 -->
-    </div><!-- row -->
+    </div>row
 
 @stop
