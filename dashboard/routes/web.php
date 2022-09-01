@@ -43,6 +43,35 @@ Route::get('/dash', function () {
     return view('dashboard');
 });
 
+Route::get('/insertpersonnel', function () {
+    return view('personnels/create');
+});
+Route::get('/listpersonnel', function () {
+    return view('personnels/list');
+});
+Route::get('/insertpostes', function () {
+    return view('posts/create');
+});
+Route::get('/listpostes', function () {
+    return view('posts/list');
+});
+Route::get('/insertclient', function () {
+    return view('clients/create');
+});
+Route::get('/listclients', function () {
+    return view('clients/list');
+});
+Route::get('/demandeconge', function () {
+    return view('conges/demandeconge');
+});
+Route::get('/listeconge', function () {
+    return view('conges/listeconge');
+});
+Route::get('/validerconge', function () {
+    return view('conges/validerconge');
+});
+
+
 
 
 

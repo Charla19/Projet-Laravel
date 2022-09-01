@@ -3,14 +3,14 @@
 @section('main-content')
 
 <div>
-    <h1>Listde des personnes en congé</h1> <br>
-    <table class="table">  
-        <thead class="thead-dark">  
+    <h1>Clients </h1> <br>
+    <table class="table table-striped">  
+        <thead>  
             <tr>  
                 <th scope="col">#</th>  
                 <th scope="col">Nom/Prénom</th>  
-                <th scope="col">Poste</th>  
-                <th scope="col">Contact</th>  
+                <th scope="col">Actions</th>  
+                <th scope="col">Adresse/Contact</th>  
             </tr>  
         </thead>  
         <tbody>  
@@ -33,7 +33,7 @@
                 <td>@twitter</td>  
             </tr>  
         </tbody> 
-    </table>  
+    </table>
 </div>
 
 @endsection

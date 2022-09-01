@@ -29,7 +29,7 @@
       <label class="sidebar-label pd-x-10 mg-t-20 op-3">Navigation</label>
       <ul class="br-sideleft-menu">
         <li class="br-menu-item">
-          <a href="index-2.html" class="br-menu-link">
+          <a href="dash" class="br-menu-link">
             <i class="menu-item-icon icon ion-ios-home-outline tx-24"></i>
             <span class="menu-item-label">TABLEAU DE BORD</span>
           </a><!-- br-menu-link -->
@@ -41,8 +41,8 @@
             <span class="menu-item-label">PERSONNEL</span>
           </a><!-- br-menu-link -->
           <ul class="br-menu-sub">
-            <li class="sub-item"><a href="card-dashboard.html" class="sub-link">Nouveau personnel</a></li>
-            <li class="sub-item"><a href="card-social.html" class="sub-link">Liste personnel</a></li>
+            <li class="sub-item"><a href="insertpersonnel" class="sub-link">Nouveau personnel</a></li>
+            <li class="sub-item"><a href="listpersonnel" class="sub-link">Liste personnel</a></li>
           </ul>
         </li>
         <li class="br-menu-item">
@@ -51,8 +51,8 @@
             <span class="menu-item-label">CLIENTS</span>
           </a><!-- br-menu-link -->
           <ul class="br-menu-sub">
-            <li class="sub-item"><a href="{{ route('clients.create') }}" class="sub-link">Nouveau client</a></li>
-            <li class="sub-item"><a href="{{ route('clients.index') }}" class="sub-link">Liste client</a></li>
+            <li class="sub-item"><a href="insertclient" class="sub-link">Nouveau client</a></li>
+            <li class="sub-item"><a href="listclients" class="sub-link">Liste client</a></li>
           </ul>
         </li>
         <li class="br-menu-item">
@@ -61,8 +61,8 @@
             <span class="menu-item-label">POSTES</span>
           </a><!-- br-menu-link -->
           <ul class="br-menu-sub">
-            <li class="sub-item"><a href="card-dashboard.html" class="sub-link">Nouveau poste</a></li>
-            <li class="sub-item"><a href="card-social.html" class="sub-link">Liste poste</a></li>
+            <li class="sub-item"><a href="insertpostes" class="sub-link">Nouveau poste</a></li>
+            <li class="sub-item"><a href="listpostes" class="sub-link">Liste poste</a></li>
           </ul>
         </li>
 
@@ -72,12 +72,13 @@
             <span class="menu-item-label">CONGES</span>
           </a><!-- br-menu-link -->
           <ul class="br-menu-sub">
-            <li class="sub-item"><a href="card-dashboard.html" class="sub-link">Liste congé</a></li>
-            <li class="sub-item"><a href="card-social.html" class="sub-link">Valider congé</a></li>
+            <li class="sub-item"><a href="demandeconge" class="sub-link">Demander congé</a></li>
+            <li class="sub-item"><a href="listeconge" class="sub-link">Liste congé</a></li>
+            <li class="sub-item"><a href="validerconge" class="sub-link">Valider congé</a></li>
           </ul>
         </li>
         <li class="br-menu-item">
-          <a href="mailbox.html" class="br-menu-link">
+          <a href="dashboardemploye" class="br-menu-link">
             <i class="menu-item-icon icon ion-ios-email-outline tx-24"></i>
             <span class="menu-item-label">MESSAGES</span>
           </a><!-- br-menu-link -->
@@ -272,14 +273,14 @@
           <a class="breadcrumb-item" href="index-2.html">ERP ENTREPRISE</a>
           <span class="breadcrumb-item active">@yield('page-title')</span>
         </nav>
-      </div><!-- br-pageheader -->
+      </div><!-- br-pageheader
       <div class="br-pagetitle">
         <i class="icon icon ion-ios-book-outline"></i>
         <div>
           <h4>@yield('page-title')</h4>
           <p class="mg-b-0">@yield('page-description')</p>
         </div>
-      </div><!-- d-flex -->
+      </div> d-flex -->
 
       <div class="br-pagebody">
 

@@ -3,7 +3,7 @@
 @section('main-content')
 
 <div>
-    <h1>Listde des personnes en congé</h1> <br>
+    <h1>Personnels</h1> <br>
     <table class="table">  
         <thead class="thead-dark">  
             <tr>  
