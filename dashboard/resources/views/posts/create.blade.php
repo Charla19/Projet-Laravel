@@ -5,30 +5,14 @@
 
 @section('main-content')
 
-<div class="br-pagebody">
-    <div class="br-section-wrapper">
-      <h6 class="br-section-label">Basic Form Input</h6>
-      <p class="br-section-text">A basic form control with disabled and readonly mode.</p>
-
-      
-      <form method="POST" action="{{ route('posts.save') }}">
-        @csrf
-        
-      <div class="row mg-t-20">
-        <div class="col-lg">
-            
-          <textarea rows="3" class="form-control" placeholder="Textarea" name="content"></textarea>
-        </div><!-- col -->
-      </div><!-- row -->
-      <div class="row mg-t-20">
-        <div class="col-lg">
-            
-          <button type="submit" class="btn btn-danger">Publier</button>
-        </div><!-- col -->
-      </div><!--
-      <form>
+<div class="container">
+        <h1>Créer un nouveau poste</h1>
+        <div class="form-group">  <label for="exampleFormControlInput1">Nom du poste</label>  
+            <input type="text" class="form-control" id="exampleFormControlInput1">  </div>      
+        <div class="form-group">  <label for="exampleFormControlTextarea1">Description du poste</label>  
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>  </div>     
+        <button type="submit" class="btn btn-primary">Valider</button>
 
     </div>
-</div>
 
 @endsection
