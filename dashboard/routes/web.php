@@ -43,6 +43,10 @@ Route::get('/dash', function () {
     return view('dashboard');
 });
 
+Route::get('/chatpanel', function () {
+    return view('chatpanel');
+});
+
 Route::get('/insertpersonnel', function () {
     return view('personnels/create');
 });
